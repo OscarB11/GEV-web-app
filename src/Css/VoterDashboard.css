@@ -1,0 +1,120 @@
+/* Create a CSS file for styling */
+.voter-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.voter-dashboard-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.voter-dashboard-nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.voter-dashboard-label {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 0.3rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.voter-dashboard-profile-button,
+.voter-dashboard-signout-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-align: center; /* Add text-align property */
+}
+
+.voter-dashboard-main {
+    max-width: 800px; /* Set a maximum width */
+    margin: auto; /* Center the container */
+    background-color: #fff; /* Set background color */
+    padding: 40px; /* Add padding for a cleaner look */
+    border-radius: 15px; /* Add curved corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.voter-dashboard-parties {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voter-dashboard-party,
+.voter-dashboard-dropdown-container {
+    flex-grow: 1;
+    margin-right: 10px; /* Adjust the spacing between party spans */
+}
+
+
+
+.voter-dashboard-candidates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.voter-dashboard-party {
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.voter-dashboard-party.blue {
+    background-color: blue;
+}
+
+.voter-dashboard-party.red {
+    background-color: red;
+}
+
+.voter-dashboard-party.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.voter-dashboard-party.independent {
+    background-color: grey;
+}
+
+
+.voter-dashboard-dropdown-container {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.voter-dashboard-party-dropdown {
+    width: 100%;
+    padding: 0.9rem;
+}
+
+
+
+.voter-dashboard-submit-button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+

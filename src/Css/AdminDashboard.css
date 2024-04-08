@@ -1,0 +1,70 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+.admin-dashboard-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.admin-dashboard-nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.admin-dashboard-profile-button,
+.admin-dashboard-signout-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* AdminDashboard.css */
+
+.admin-dashboard-main {
+    max-width: 80%; /* Set a percentage value for max-width */
+    margin: 5% auto; /* Set a percentage value for margin */
+    padding: 5%; /* Set a percentage value for padding */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 60vw; /* Set a viewport width percentage for min-width */
+    min-height: 50vh; /* Set a viewport height percentage for min-height */
+}
+
+.admin-dashboard-election-controls {
+    margin-bottom: 20px;
+}
+
+
+
+.admin-dashboard-election-controls button {
+    background: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+
+.admin-dashboard-election-results h2,
+.admin-dashboard-chart h2 {
+    margin-bottom: 10px;
+}
+
+/* Add styles for other sections as needed */

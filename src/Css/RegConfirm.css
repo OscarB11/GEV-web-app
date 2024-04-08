@@ -1,0 +1,57 @@
+/* src/pages/RegConfirm.css */
+
+.reg-confirm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency (fourth value) as needed */
+}
+
+.reg-confirm-form {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px; /* Adjust the border-radius for slightly curved corners */
+    background-color: #fff; /* Background color of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.green-tick-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.RegConfirm-btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff6b6b, #6b45e6);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}

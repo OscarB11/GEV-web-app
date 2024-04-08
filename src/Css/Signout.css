@@ -1,0 +1,50 @@
+/* src/pages/Signout.css */
+
+.sign-out-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency (fourth value) as needed */
+}
+
+.sign-out-form {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px; /* Adjust the border-radius for slightly curved corners */
+    background-color: #fff; /* Background color of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.sign-out-btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff6b6b, #6b45e6);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sign-out-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}

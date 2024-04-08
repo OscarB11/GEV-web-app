@@ -1,0 +1,64 @@
+/* src/pages/HomePage.css */
+body {
+    margin: 0;
+}
+
+.homepage-container {
+    text-align: center;
+    padding: 20px 15%; /* Set 15% padding on both left and right */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+header {
+    background: linear-gradient(to right, #4a90e2, #7048e8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.election-info {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-card {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.user-login {
+    background: linear-gradient(to right, #ff6b6b, #6b45e6);
+}
+
+.admin-login {
+    background: linear-gradient(to right, #0d98e0, #19e6e6);
+}
+
+.register {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+
+/* src/pages/HomePage.css */
+
+footer p {
+    margin: 20px;
+}
